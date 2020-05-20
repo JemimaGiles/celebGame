@@ -1,9 +1,8 @@
 <resources>
     <string name="app_name">guessTheCeleb</string>
     <string name="imageNames">celebs</string>
-    <string name="easy" />
-    <string name="level" />
-    <string name="play" />
+    <string name="level" >Level?</string>
+    <string name="play" >Play!</string>
 
     <string-array
         name="difficulties">
