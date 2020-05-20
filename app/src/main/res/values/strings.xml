@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">guessTheCeleb</string>
+    <string name="imageNames">celebs</string>
+    <string name="easy" />
+    <string name="level" />
+    <string name="play" />
+
+    <string-array
+        name="difficulties">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Expert</item>
+    </string-array>
+
+</resources>
