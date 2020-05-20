@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,27 +9,35 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="150dp"
-        android:text="@string/level" />
+        android:layout_marginEnd="32dp"
+        android:text="@string/level"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
 
     <Spinner
         android:id="@+id/Spinner"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@array/difficulties" />
+        android:entries="@array/difficulties"
+        android:text="@array/difficulties"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/Button"
-        android:text="@string/play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
         android:layout_marginBottom="150dp"
-        android:layout_gravity="bottom"
-        android:layout_marginHorizontal="157dp"
-        />
+        android:text="@string/play"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
 
 </FrameLayout>

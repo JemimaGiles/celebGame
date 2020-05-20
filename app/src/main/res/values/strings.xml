@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">guessTheCeleb</string>
     <string name="imageNames">celebs</string>
-    <string name="easy" />
-    <string name="level" />
-    <string name="play" />
+    <string name="level" >Level: ?</string>
+    <string name="play" >Play!</string>
+    <string name="time_remaining_0_seconds">Time remaining: 0 seconds</string>
+    <string name="score_0_10">Score: 0/10</string>
 
     <string-array
         name="difficulties">

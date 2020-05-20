@@ -8,14 +8,14 @@ import java.io.IOException;
 import java.io.InputStream;
 
 
-class ImageManager {
+public class CelebrityManager {
 
     private String assetPath;
     private String[] imagesNames;
     private AssetManager assetManager;
 
 
-    ImageManager(AssetManager assetManager, String assetPath) {
+    CelebrityManager(AssetManager assetManager, String assetPath) {
         this.assetPath = assetPath;
         this.assetManager = assetManager;
 

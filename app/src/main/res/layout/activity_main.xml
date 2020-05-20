@@ -5,8 +5,8 @@
     android:id="@+id/status"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:name="com.example.guesstheceleb.GameFragment"
-    tools:layout="@layout/fragment_game"/>
+    android:name="com.example.guesstheceleb.StatusFragment"
+    tools:layout="@layout/fragment_status"/>
 
 
 
