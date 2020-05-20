@@ -18,6 +18,10 @@
     <style name="headline" parent="TextAppearance.AppCompat.Display2">
         <item name="android:textColor">@color/colorPrimary</item>
     </style>
+    
+    <style name="large" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
 
 
 </resources>

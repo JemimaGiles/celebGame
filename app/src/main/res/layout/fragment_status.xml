@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StatusFragment"/>
+    tools:context=".StatusFragment"
+    tools:layout_centerVertical="true">
+
+
+    <TextView
+        android:id="@+id/remainingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="200dp"
+        android:text="@string/time_remaining_0_seconds"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/currentScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="200dp"
+        android:text="@string/score_0_10"
+        android:textColor="@color/colorAccent" />
+</FrameLayout>
