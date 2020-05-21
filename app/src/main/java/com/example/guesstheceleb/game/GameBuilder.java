@@ -15,7 +15,7 @@ public class GameBuilder {
         private AssetManager assetManager;
 
 
-        CelebrityManager(AssetManager assetManager, String assetPath) {
+        public CelebrityManager(AssetManager assetManager, String assetPath) {
             this.assetPath = assetPath;
             this.assetManager = assetManager;
 
@@ -37,6 +37,10 @@ public class GameBuilder {
                 e.printStackTrace();
                 return null;
             }
+
+        }
+
+        getName(int i){
 
         }
 
